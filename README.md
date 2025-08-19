@@ -1,11 +1,11 @@
-# aws_resources_mapper
+2# aws_resources_mapper
 
 Snapshot all AWS Resources for terraform
 
 ## Requirements
 
 - Ruby version >= `ruby 2.6.10`
-- `aws-cli` installed, and all Required permissions to describe resources
+- `aws-cli` installed, and all Required (AWS IAM) permissions to describe resources
 
 ## How to use
 

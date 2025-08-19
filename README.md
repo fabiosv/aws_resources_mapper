@@ -2,6 +2,11 @@
 
 Snapshot all AWS Resources for terraform
 
+## Requirements
+
+- Ruby version >= `ruby 2.6.10`
+- `aws-cli` installed, and all Required permissions to describe resources
+
 ## How to use
 
 1. Install by running the command `bundler install --path .vendor/bundle`.

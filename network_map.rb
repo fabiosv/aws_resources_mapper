@@ -1,8 +1,7 @@
 require 'colorize'
-# require 'byebug'
 require 'json'
-# This class represents a network map with nodes and edges
 
+# This class represents a network map with nodes and edges
 class AWSNetworkMap
   attr_accessor :get_commands
 
@@ -179,7 +178,6 @@ end
 # require './network_map'
 # network_map = AWSNetworkMap.new
 # vpc_id = 'vpc-12345678'
-# vpc_id = 'vpc-ce22fbb7'
 # path = "#{vpc_id}_network_report.json"
 # report = network_map.get_report(vpc_id, path)
 # puts network_map.to_s

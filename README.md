@@ -1,4 +1,4 @@
-2# aws_resources_mapper
+# aws_resources_mapper
 
 Snapshot all AWS Resources for terraform
 
